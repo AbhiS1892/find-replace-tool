@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Find and Replace Tool</h1>
+    <textarea [(ngModel)]="text" rows="10" placeholder="Type or paste your text here..."></textarea>
+    <div class="inputs">
+        <input [(ngModel)]="findText" type="text" placeholder="Word/Phrase to Find">
+        <input [(ngModel)]="replaceText" type="text" placeholder="Replacement Word/Phrase">
+    </div>
+    <div class="buttons">
+        <button (click)="replaceTextInInput()" [disabled]="isTextEmpty()">Find and Replace</button>
+        <button (click)="reset()" [disabled]="isTextEmpty()">Reset</button>
+    </div>
+    <p *ngIf="message" class="message">{{ message }}</p>
+    <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+</div>
