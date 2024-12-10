@@ -15,12 +15,15 @@ export class FindReplaceComponent {
   replaceTextInInput() {
     if (!this.findText) {
       this.errorMessage = 'Please enter the word/phrase to find.';
+      this.message = '';
       return;
     } else if (!this.text) {
       this.errorMessage = 'Please enter the text in the textbox.';
+      this.message = '';
       return;
     } else if (!this.replaceText) {
       this.errorMessage = 'Please enter the replacement word/phrase.';
+      this.message = '';
       return;
     }
 
