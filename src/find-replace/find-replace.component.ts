@@ -19,6 +19,9 @@ export class FindReplaceComponent {
     } else if (!this.text) {
       this.errorMessage = 'Please enter the text in the textbox.';
       return;
+    } else if (!this.replaceText) {
+      this.errorMessage = 'Please enter the replacement word/phrase.';
+      return;
     }
 
     const regex = new RegExp(this.findText, 'g');
@@ -38,6 +41,7 @@ export class FindReplaceComponent {
     this.findText = '';
     this.replaceText = '';
     this.message = '';
+    this.errorMessage = '';
   }
 
   isTextEmpty() {

@@ -17,8 +17,8 @@ A simple Angular web application that allows users to find and replace words or 
 ## Live Demo
 Check out the live application:
 
-- **Vercel**: [Live Demo](https://your-vercel-link.vercel.app)
-- **Netlify**: [Live Demo](https://your-netlify-link.netlify.app)
+- **Vercel**: [Live Demo](https://find-replace-tool-d48uovu91-abhisheks-projects-61123022.vercel.app/)
+- **Netlify**: [Live Demo](https://find-rep-tool.netlify.app/)
 
 ---
 
