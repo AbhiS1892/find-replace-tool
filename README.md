@@ -27,8 +27,8 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AbhiS1892/FindReplaceTool.git
-   cd FindReplaceTool/find-replace-tool
+   git clone https://github.com/AbhiS1892/find-replace-tool.git
+   cd find-replace-tool
 2. Install Dependencies:
    ```bash
    npm install
